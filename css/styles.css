@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#header {
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 90%;
+}
+
+
+.logo {
+    width: 20%;
+    align-self: center;
+    text-align: center;
+    }
+
+.contacts {
+    width: 30%;
+    align-self: center;
+}
+
+.nav {
+    width: 30%;
+    align-self: center;
+}
+
+.button {
+    width: 20%;
+    align-self: center;
+}
+
+div {
+    font-family: "Arial", sans-serif;
+}
+
+
+.menutop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0ff270;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.menutop-button {
+    width: 20%;
+}
+
+.slider {
+    width: 100%;
+    height: 250px;
+    border: black solid 1px;
+    margin-bottom: 15px;
+}
+
+.menu {
+    width: 100%;
+    height: 1000px;
+    border: black solid 1px;
+    display: flex;
+}
+
+.menu-group {
+    width: 49%;
+    height: 100%;
+    border: black solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.small-link {
+    width: 48%;
+    height: 23%;
+    border: black solid 1px;
+}
+
+.large-link {
+    width: 100%;
+    height: 73%;
+    border: black solid 1px;
+}
+
+.menu-link {
+    display: block;
+}
