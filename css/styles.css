@@ -1,55 +1,47 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
 }
 
 #wrapper {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     position: relative;
     
 }
 
 #header {
+    margin: 0 auto;
     height: 100px;
+    width: 100%;
     position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-body {
-    margin: 0 auto;
+    align-items: center;
 }
 
 .logo-img {
     width: 90%;
 }
 
-
 .logo {
     width: 20%;
-    align-self: center;
-    text-align: center;
-    }
+}
+
 
 .contacts {
-    width: 30%;
-    align-self: center;
+    padding: 10px;
 }
-
+    
 .nav {
-    width: 30%;
-    align-self: center;
+    padding: 10px;
 }
-
+    
 .button {
-    width: 20%;
-    align-self: center;
-}
-
-div {
-    font-family: "Arial", sans-serif;
+    padding: 10px;
 }
 
 
@@ -67,24 +59,32 @@ div {
     width: 20%;
 }
 
+.slider-max {
+    width: 1000%;
+}
+
 .slider {
-    width: 100%;
+    width: 10%;
     height: 250px;
-    border: black solid 1px;
     margin-bottom: 15px;
+    overflow: hidden; 
+    border: #0ff270 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+.slide {
+    width: 100%;
 }
 
 .menu {
     width: 100%;
-    height: 1000px;
-    border: black solid 1px;
     display: flex;
+    border: #0ff270 1px solid;
 }
 
 .menu-group {
-    width: 49%;
+    width: 50%;
     height: 100%;
-    border: black solid 1px;
     display: flex;
     flex-wrap: wrap;
     align-items: space-between;
@@ -93,15 +93,33 @@ div {
 }
 
 .small-link {
-    width: 48%;
-    height: 23%;
-    border: black solid 1px;
+    width: 50%;
+    height: 25%;
+    transition: background-color .2s ease-in-out;
+}
+
+.small-link:hover {
+    background-color: #0ff2717a;
+}
+
+.small-link img {
+    width: 100%;
+    height: 100%;
 }
 
 .large-link {
     width: 100%;
-    height: 73%;
-    border: black solid 1px;
+    height: 75%;
+    transition: background-color .2s ease-in-out;
+}
+
+.large-link img {
+    width: 100%;
+    height: 100%;
+}
+
+.large-link:hover {
+    background-color: #0ff2717a;
 }
 
 .menu-link {
